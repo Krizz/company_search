@@ -1,0 +1,14 @@
+{
+  "name": "firm-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "csv-parse": "^5.3.0",
+    "fastify": "^4.2.1",
+    "fastify-cors": "^6.1.0",
+    "flexsearch": "^0.7.21",
+    "unzipper": "^0.10.11"
+  }
+}

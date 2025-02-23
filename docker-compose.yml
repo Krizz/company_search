@@ -1,0 +1,17 @@
+version: "2.2"
+services:
+  api:
+    container_name: company_api
+    cpus: 1
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "10"
+    restart: unless-stopped
+    ports:
+      - 9080:80
+    build: ./api
+    mem_limit: 8g
+    ulimits:
+      core: 0
